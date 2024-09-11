@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8ED2C9;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+header ul {
+    
+    list-style: none;
+    display: flex;
+}
+
+header ul li {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+header button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.h {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #8ED2C9;
+}
+
+.h h1 {
+    font-size: 2.5rem;
+    color: #000;
+}
+
+.h p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.h img {
+    width: 100%;
+    height: auto;
+}
+
+.technology {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.tech-cards {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.tech-card {
+    text-align: center;
+    padding: 20px;
+}
+
+.tech-card img {
+    width: 100px;
+    height: auto;
+}
+
+.tech-card h3 {
+    margin-top: 10px;
+}
+
+.web-development {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #8ED2C9;
+}
+
+.web-development h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.icon-circles {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.icon-circles img {
+    width: 80px;
+    margin: 0 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer h3 {
+    font-size
+}
