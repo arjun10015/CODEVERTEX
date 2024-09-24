@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <style>
+        body {
+        background-color:#80d4e9;
+        border-radius: 10px;
+        border: solid black 3px;
+        padding: 10px;
+        transition: background-color 0.5s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Portfolio</h1><br>
+    <header>
+        <div class="container1" style="display:flex ; align-items: center; align-content: center;">
+            <img src="C:\Users\Lenovo\Pictures\my pics\IMG BG.jpg" alt="Your Name" width="10%" height="10%" class="profile-img" style="border:solid black 2px; border-radius:10px;">
+            <div style="padding:150px;"><h1>Arjun R</h1>
+            <p class="tagline"><b>Front-end Developer</b></p></div>
+        </div>
+    </header><br>
+
+    <section id="about">
+        <div class="container">
+            <h2 style="text-decoration: underline;">Bio and Experience</h2>
+            <p>Resourceful Web Developer Intern experienced in designing, coding, and modifying websites to ensure functionality. Demonstrates a strong understanding of Ul, cross- browser compatibility, web functions, and standards. 
+                Proven track record of creating visually appealing sites with user-friendly design and clear navigation. Consistently delivers projects on time with high standards of quality control.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2 style="text-decoration: underline;">Skills</h2>
+            <ul>
+                <li>Front-End Skills: HTML, CSS</li>
+                <li>Communication and Interpersonal Skills</li>
+                <li>Problem-Solving</li>
+                <li>Time management abilities</li>
+                <li>Teamwork and Collaboration</li>
+                <li>Programming Languages:Java, C, Python</li>
+                <li>Adaptability and Flexibility</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <div class="container">
+            <h2 style="text-decoration: underline;">Certifications and Achievements</h2>
+            <ul>
+                <li>Programming in java</li>
+                <li>Enterprise pythan</li>
+                <li>Front end development-HTML</li>
+                <li>JavaScript essential training</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 style="text-decoration: underline;">Projects</h2>
+            <div class="project">
+                <h3 style="text-decoration: underline;">Project Title 1: Fan Fare: Dynamic Pricing For Cricket Match Tickets</h3>
+                <p>Description of Project : 
+                    The project aims to introduce dynamic pricing for cricket match tickets, adjusting prices in real-time based on demand, team performance, player popularity, and other factors. This approach, inspired by the airline industry, uses AI and machine learning to:
+                    <ul><li>Maximize revenue for organizers</li>
+                        <li>Make tickets more accessible to fans</li>
+                        <li>Reduce pricing errors</li>
+                        <li>Enhance the fan experience</li></ul>
+                </p>
+            </div>
+            <div class="project">
+                <h3 style="text-decoration: underline;">Project Title 2 : Next-Gen</h3>
+                <p>Description of Project : 
+                    Streamlining Healthcare Access with Our Innovative Website Application
+
+Our project introduces a groundbreaking healthcare business model website application aimed at enhancing patient care and streamlining healthcare services. Key features include seamless appointment booking, efficient bed allotment, comprehensive hospital and doctor profiles, medicine delivery, emergency assistance, and a universal patient card system. With user-friendly interfaces and advanced technologies, our solution seeks to revolutionize healthcare access and improve health outcomes for patients worldwide.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="extra">
+        <div class="container">
+            <h2 style="text-decoration: underline;">Volunteering Experiences</h2>
+            <ul>
+                <li>Turing's guild-Executive Assistant</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="Language">
+        <div class="container">
+            <h2 style="text-decoration: underline;">Languages</h2>
+            <ul>
+                <li>Tamil: First Language</li>
+                <li>English: Proficient </li>
+                <li>Hindi: Proficient (C2)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="resume">
+        <div class="container">
+            <h2 style="text-decoration: underline;">Resume</h2>
+            <a href="C:\Users\Lenovo\Pictures\my pics\my resume.pdf" download>Download my resume</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 style="text-decoration: underline;">Contact</h2>
+            <p>Email: arjunpatel10015@gmail.com</p>
+            <p>Phone: 8870902132</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p style="text-align: center;">&copy; 2024 Arjun R. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => {
+                const sectionTop = section.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                if (sectionTop < windowHeight - 100) {
+                    section.classList.add('appear');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+

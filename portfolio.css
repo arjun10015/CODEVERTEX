@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s ease-in-out; 
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; 
+}
+
+header {
+    background-color: #f4f4f4;
+    border:solid black 1px;
+    border-radius: 60px;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+}
+
+header:hover {
+    background-color: #e2e2e2;
+}
+
+header h1 {
+    margin: 0;
+    transition: transform 0.4s ease-in-out; 
+}
+
+header h1:hover {
+    transform: scale(1.1); 
+}
+
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.profile-img:hover {
+    transform: scale(1.1); 
+}
+
+section {
+    padding: 20px 0;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+
+section.appear {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+ul li {
+    margin: 5px 0;
+    transition: color 0.3s ease-in-out; 
+}
+
+ul li:hover {
+    color: #007bff;
+}
+
+
+#resume a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+#resume a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+footer:hover {
+    background-color: #e2e2e2;}
